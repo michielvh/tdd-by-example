@@ -6,6 +6,9 @@ public abstract class Money {
     protected String currency;
 
     public Money(int amount, String currency) {
+        this.amount= amount;
+        this.currency=currency;
+
     }
 
     protected String currency() {
